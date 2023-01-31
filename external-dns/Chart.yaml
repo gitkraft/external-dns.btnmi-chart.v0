@@ -1,7 +1,6 @@
 annotations:
   category: DeveloperTools
-  licenses: |
-    - Apache-2.0
+  licenses: Apache-2.0
 apiVersion: v2
 appVersion: 0.13.2
 dependencies:
@@ -25,4 +24,4 @@ sources:
   - https://github.com/kubernetes-sigs/external-dns
   - https://github.com/bitnami/containers/tree/main/bitnami/external-dns
   - https://github.com/kubernetes-sigs/external-dns
-version: 6.13.1
+version: 6.13.2
