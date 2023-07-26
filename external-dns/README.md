@@ -20,6 +20,8 @@ This chart bootstraps a [ExternalDNS](https://github.com/bitnami/containers/tree
 
 Bitnami charts can be used with [Kubeapps](https://kubeapps.dev/) for deployment and management of Helm Charts in clusters.
 
+Looking to use ExternalDNS in production? Try [VMware Application Catalog](https://bitnami.com/enterprise), the enterprise edition of Bitnami Application Catalog.
+
 ## Prerequisites
 
 - Kubernetes 1.19+
@@ -76,7 +78,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
 | `image.registry`                                | ExternalDNS image registry                                                                                                                                                   | `docker.io`               |
 | `image.repository`                              | ExternalDNS image repository                                                                                                                                                 | `bitnami/external-dns`    |
-| `image.tag`                                     | ExternalDNS Image tag (immutable tags are recommended)                                                                                                                       | `0.13.4-debian-11-r19`    |
+| `image.tag`                                     | ExternalDNS Image tag (immutable tags are recommended)                                                                                                                       | `0.13.5-debian-11-r14`    |
 | `image.digest`                                  | ExternalDNS image digest in the way sha256:aa.... Please note this parameter, if set, will override the tag                                                                  | `""`                      |
 | `image.pullPolicy`                              | ExternalDNS image pull policy                                                                                                                                                | `IfNotPresent`            |
 | `image.pullSecrets`                             | ExternalDNS image pull secrets                                                                                                                                               | `[]`                      |
